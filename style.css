@@ -4,10 +4,33 @@ body {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .5em;
-    background: linear-gradient(90deg, #ff0000, yellow);
+    background: linear-gradient(90deg, #ff0000, yellow, green);
     height: 100vh;
-    padding-top: 20%
+    padding-top: 5em;
 }
+
+.select-cont {
+    padding: 2em 2em;
+}
+
+
+select {
+    font-weight: bold;
+    /* Reset */
+    appearance: none;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    font: "Raleway", sans-serif;
+    width: 10rem;
+    padding: 1rem 2rem 1rem 2rem;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.2) 3em, rgba(255, 255, 255, 0.2) 3em);
+    color: rgb(4, 4, 4);
+    border-radius: 0.25em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
 
 h1 {
     font: 600 3.5em 'Raleway', sans-serif;
